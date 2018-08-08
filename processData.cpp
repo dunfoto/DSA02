@@ -200,21 +200,9 @@ void getMin(VRecord &data, void *list){
 
 
 
-bool CYR(char *cmdID, char *cmdRy, char *cmddy, L1List<VRecord> *reclist)
-{
-	if (!cmdID) return false;
-
-}
-
-
-
-
-
-
-
 
 /// Initialize and Finalize any global data that you use in the program
-
+/// Cần hiện thực ------------------------------------------------------------------------------------------------------------
 bool initVGlobalData(void** pGData) {
     // TODO: allocate global data if you think it is necessary.
     /// pGData contains the address of a pointer. You should allocate data for the global data
